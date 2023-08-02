@@ -1,0 +1,17 @@
+@charset "UTF-8";
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section.container {
+    display: grid;
+    grid: repeat(2 200px / 2 500px);
+    gap: 10px;
+}
+
+div {
+    background-color: aqua;
+    border: 1px solid black;
+}
